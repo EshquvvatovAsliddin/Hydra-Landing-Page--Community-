@@ -719,6 +719,10 @@ video {
   margin-left: -8rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .ml-\[1px\] {
   margin-left: 1px;
 }

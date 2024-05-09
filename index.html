@@ -2,11 +2,26 @@
 <html lang="en">
 
 <head>
+    <!-- TODO: META TEGLAR -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: META TEGLAR -->
+
+
+    <!-- TODO: ICONLAR -->
     <link rel="icon" href="./img/header/Vector.png">
+    <!-- TODO: ICONLAR -->
+
+
+    <!-- TODO: TAILWIND CSS -->
     <link rel="stylesheet" href="./src/output.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- TODO: TAILWIND CSS -->
+
+
+    <!-- TODO: TAILWIND JS -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- TODO: TAILWIND JS -->
+
     <title>Hydra-Landing-Page-(Community)</title>
     <style>
         /* !=============== CUSTOM SCROOLBAR =============== */
@@ -19,14 +34,60 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
+        .animation-start {
+            position: fixed;
+            width: 70px;
+            background-color: rgb(247, 0, 255);
+            box-shadow: 0 0 30px rgb(255, 0, 128);
+            height: 70px;
+            font-size: 50px;
+            top: 80%;
+            animation-name: animation-first;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            left: 90%;
+            border-radius: 50%;
+            animation-duration: 4s;
+
+            h1 {
+                margin-top: -7px;
+                margin-left: 20px;
+                color: rgb(0, 166, 255);
+            }
+        }
+
+        @keyframes animation-first {
+            25% {
+                background-color: rgb(247, 0, 255);
+                scale: 1.1;
+            }
+
+            50% {
+                scale: 0.9;
+                background-color: red;
+            }
+
+            75% {
+                background-color: rgb(247, 0, 255);
+                scale: 1.1;
+
+            }
+
+            100% {
+                scale: 0.9;
+                background-color: red;
+            }
+        }
     </style>
 </head>
 
 <body class="px-20" style="background-color: #302C42; font-family: Montserrat, sans-serif;">
+
     <!--TODO: HEADER -->
     <header>
         <!--TODO: NAVBAR -->
-        <nav class="grid grid-cols-3 gap-8">
+        <nav class="grid grid-cols-3 gap-8" id="animation-top">
             <!-- DIV_IMAGES -->
             <div class="w-max max-lg:px-48">
                 <img src="./img/header/Vector.png" alt="" class="inline-block max-md:w-64">
@@ -44,7 +105,7 @@
                 <button
                     class="w-[154px] h-[48px] bg-transparent border-[2px] text-white rounded-[40px] max-xl:w-[120px] max-xl:text-sm">CONTACT
                     US</button>
-                <button class="w-[154px] h-[48px] rounded-[40px] max-xl:w-[120px] max-xl:text-sm"
+                <button class="w-[154px] h-[48px] rounded-[40px] max-xl:w-[120px] max-xl:text-sm ml-10"
                     style="background-image: linear-gradient(90deg, #8176AF,  #C0B7E8);">JOIN HYDRA</button>
             </div>
         </nav>
@@ -325,6 +386,13 @@
         <section></section>
     </main>
     <footer></footer>
+
+
+    <a href="#animation-top">
+        <div class="animation-start">
+            <h1>⌂</h1>
+        </div>
+    </a>
 </body>
 
 </html>
