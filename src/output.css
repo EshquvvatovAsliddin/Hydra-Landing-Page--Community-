@@ -671,6 +671,10 @@ video {
   isolation: auto;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -761,6 +765,70 @@ video {
 
 .mt-\[500px\] {
   margin-top: 500px;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-80 {
+  margin-top: 20rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[400px\] {
+  margin-top: 400px;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
+}
+
+.-mt-36 {
+  margin-top: -9rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
+.-mt-\[70px\] {
+  margin-top: -70px;
+}
+
+.-mt-\[40px\] {
+  margin-top: -40px;
+}
+
+.-mt-\[120px\] {
+  margin-top: -120px;
+}
+
+.-mt-\[100px\] {
+  margin-top: -100px;
+}
+
+.ml-11 {
+  margin-left: 2.75rem;
+}
+
+.-ml-14 {
+  margin-left: -3.5rem;
 }
 
 .box-border {
@@ -882,6 +950,14 @@ video {
   height: 511px;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-\[154px\] {
   width: 154px;
 }
@@ -925,6 +1001,22 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[460px\] {
+  width: 460px;
+}
+
+.w-\[465px\] {
+  width: 465px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .flex-shrink {
@@ -1922,6 +2014,14 @@ video {
   border-radius: 90px;
 }
 
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
+.rounded-\[40\%\] {
+  border-radius: 40%;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2061,6 +2161,40 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[0D0D0D\] {
+  background-color: 0D0D0D;
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0D0D0D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 13 13 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0D0D0D32\%\] {
+  background-color: #0D0D0D32%;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
+.bg-opacity-\[32\%\] {
+  --tw-bg-opacity: 32%;
 }
 
 .to-95\% {
@@ -2216,6 +2350,10 @@ video {
 
 .pt-\[13px\] {
   padding-top: 13px;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-left {
@@ -2838,6 +2976,10 @@ video {
     margin-top: 700px;
   }
 
+  .max-xl\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .max-xl\:hidden {
     display: none;
   }
@@ -3151,6 +3293,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .xl\:hidden {
     display: none;
   }
